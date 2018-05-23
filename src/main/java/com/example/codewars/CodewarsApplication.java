@@ -1,11 +1,13 @@
 package com.example.codewars;
 
-import com.example.codewars.kyu7.ArithmeticFunction;
+import com.example.codewars.kyu6.CamelCase2;
+import com.example.codewars.kyu7.Factorial;
 
 
 public class CodewarsApplication {
 
     public static void main(String[] args) {
-        ArithmeticFunction.arithmetic(1,2, "add");
+        Factorial factorial = new Factorial();
+        factorial.factorial(5);
     }
 }
