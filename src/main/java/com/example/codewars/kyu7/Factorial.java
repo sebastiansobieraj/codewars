@@ -1,6 +1,6 @@
 package com.example.codewars.kyu7;
 
-public class Factorial{
+public class Factorial {
     public int factorial(int n) {
         if (n == 0) {
             return 1;
